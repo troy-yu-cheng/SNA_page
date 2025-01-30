@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "GIS_final"
+  repo-url: "https://github.com/XZ634/GIS_final"
+  repo-actions: [source]
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+format:
+  html:
+    toc: true
+
+execute:
+  freeze: true
